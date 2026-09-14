@@ -4,7 +4,7 @@
 # Module 2, Assignment 1
 
 g_list= []
-g_list.append (input(f"What is your favorite game?").title())
+g_list.append (input(f"What is your favorite game? ").title())
 g_list.append (input(f"What is your second favorite game? ").title())
 g_list.append (input(f"What is your third favorite game? ").title())
 
