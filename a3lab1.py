@@ -5,8 +5,8 @@
 
 start_int = int(input(f"What is your first number? "))
 end_int = int(input(f"What is your secound number? "))
-num_list = list(range (start_int, end_int))
-sum_int = 1
-for num in num_list:
-    sum_int += num
-print(sum_int)
+num_list = list(range (start_int, end_int + 1))
+sum_int = 0 
+for num in num_list: 
+    sum_int += num 
+print(f"The total value of numbers from {start_int} to {end_int} is {sum_int}")
