@@ -1,3 +1,7 @@
+# Josue Rosas 
+# Student ID: 877784637 
+# Section: 08
+# Module 4 Assignment 1
 g_list = []
 questions = [ 
     "What is your 1 favorite Playstation game? ",
