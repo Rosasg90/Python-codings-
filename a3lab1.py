@@ -3,8 +3,8 @@
 # Section: 08
 # Module 3, Assignment 1
 
-start_int = int(input(f"What is your first number? "))
-end_int = int(input(f"What is your secound number? "))
+start_int = int(input(f"What is the first number? "))
+end_int = int(input(f"What is the secound number? "))
 num_list = list(range (start_int, end_int + 1))
 sum_int = 0 
 for num in num_list: 
