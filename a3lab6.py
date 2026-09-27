@@ -3,8 +3,8 @@
 # Section: 08
 # Module 3, Assignment 6
 
-name = input(f"What is your student name? ")
-grade = int(input(f"What is your grade? "))
+name = input(f"What is the student name? ")
+grade = int(input(f"What is their grade? "))
 if grade <= 100 and grade >= 90:
     print(f"{name} earned a A")
 elif grade <= 89 and grade >= 80:
