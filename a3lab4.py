@@ -13,4 +13,4 @@ elif(age_int % 2) != 0 and age_int < 50:
 elif (age_int == 50):
     print (f"Your future is unclear") 
 elif (age_int > 50 ):
-    print(f"Death will come to you")
+    print(f"Death will come for you")
