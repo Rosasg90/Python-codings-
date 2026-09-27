@@ -9,8 +9,8 @@ g_list.append (input(f"What is your second favorite game? ").title())
 g_list.append (input(f"What is your third favorite game? ").title())
 
 
-print(f"One of my favorite game is {g_list.pop(0)}")
-print(f"One of my favorite game is {g_list.pop(0)}")
-print(f"One of my favorite game is {g_list.pop(0)}")
+print(f"One of your favorite game is {g_list.pop(0)}")
+print(f"One of your favorite game is {g_list.pop(0)}")
+print(f"One of your favorite game is {g_list.pop(0)}")
 
 
