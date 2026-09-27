@@ -6,7 +6,7 @@
 m_list = ["E.T. the Extra-Terrestrial", "Indiana Jones and the Last Crusade", "Batman", "Rain Man", "Back to the Future Part II"]
 movie = input(f"What is your favorite movie? ")
 if movie in m_list:
-    print(f"Great Choice")
+    print(f"Great choice")
 else:
     print(f"Never heard of it")
 
