@@ -9,4 +9,5 @@ for i in range(3):
     food_dict[food] = country
 dish = input(f"What dish do you like? ")
 if dish in food_dict:
-    print(f"{food} is from {country}")
+    print(f"{dish} is from {food_dict[dish]}")
+
