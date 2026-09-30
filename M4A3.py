@@ -9,11 +9,11 @@ for i in range(3):
     games_dict[games] = system 
 
 print(f"That's too many, let get rid of one")
-user_input = input(f"What game whould we remove?")
+user_input = input(f"What game should we remove?")
 
 if user_input in games_dict:
     del games_dict[user_input]
-print(f"This new dictionary is:")
+print(f" The new dictionary is:")
 
 for games, system in games_dict.items():
     print(f"You can play {games} on {system}")
