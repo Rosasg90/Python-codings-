@@ -12,8 +12,8 @@ food_dict ={'Jim': 'Tacos',
 }
 for key in food_dict.keys():
     if food_dict.get(key)== '':
-       food_dict[key] = input(f"What is {key}'s favorite food?")
+       food_dict[key] = input(f" What is {key}'s favorite food?")
 
-print(f"Here are the Favortie Food:")
+print(f" Here are the favorite food:")
 for key, value in food_dict.items():
     print(f"{key}'s favorite food is {value}")
