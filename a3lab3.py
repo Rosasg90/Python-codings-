@@ -3,7 +3,7 @@
 # Section: 08
 # Module 3, Assignment 3
 
-number = int(input(f" Please enter an  interger: "))
+number = int(input(f" Please enter an interger: "))
 if (number % 2) == 0: 
     print(f"Even")
 else: 
