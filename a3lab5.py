@@ -4,7 +4,7 @@
 # Module 3, Assignment 5
 
 start_int = int(input(f"What is the first number? ")) 
-end_int = int(input(f"What is the secound number? "))
+end_int = int(input(f"What is the second number?" ))
 start_in = start_int if start_int % 5 == 0 else start_int + (5 - start_int % 5) 
 num_list = list(range(start_int, end_int + 1, 5)) 
 sum_int = 0
