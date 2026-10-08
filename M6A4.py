@@ -1,3 +1,7 @@
+# Josue Rosas 
+# Student ID: 877784637 
+# Section: 08
+# Module 6 Assignment 4
 def show_message(messages_list):
     copy_list = messages_list[:]
     while copy_list:
