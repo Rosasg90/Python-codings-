@@ -7,5 +7,5 @@ def favorite_book(book_title):
 
 
 for i in range(3):
-    book_title = input(f"What is  your favorite book? ")
+    book_title = input(f"What is your favorite book? ")
     print(favorite_book(book_title))
