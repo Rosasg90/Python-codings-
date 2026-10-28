@@ -11,8 +11,10 @@ while (current * 2) <= limit:
     current *= 2
     if limit > current:
         print(f"The current value is {current}")
-if limit > current: 
-    print(f"The last value of current that was less than {limit} was {current}")
+        if limit > current: 
+            print(f"The last value of current that was less than {limit} was {current}")
+
+
 
         
 
