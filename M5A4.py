@@ -11,7 +11,7 @@ while food_going:
         food_going = False
 for food in finished_list:
     print(f"I made your {food}")
-print(f"Here are all the sandwitches I made:")
+print(f"Here are all the sandwiches I made:")
 for food in finished_list: 
     print(food)
 
