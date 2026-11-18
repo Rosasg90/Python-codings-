@@ -8,7 +8,7 @@ with open ("input.txt", 'r') as file_object:
     for line in file_object:
         line = line.strip()
         data_list.append(line)
-print(f"Here are the Users Agent:")
+print(f"Here are the users sgent:")
 for data in data_list: 
     if data.startswith('User-agent'):
         print(data)
