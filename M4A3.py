@@ -4,8 +4,8 @@
 # Module 4 Assignment 3
 games_dict = {}
 for i in range(3):
-    games = input(f" What is a great game?")
-    system = input(f" What system can I play that on? ")
+    games = input(f"What is a great game?")
+    system = input(f"What system can I play that on? ")
     games_dict[games] = system 
 
 print(f"That's too many, let get rid of one")
