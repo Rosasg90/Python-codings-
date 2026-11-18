@@ -14,4 +14,4 @@ elif grade <= 79 and grade >= 70:
 elif grade <= 69 and grade >= 60:
     print(f"{name} earned a D") 
 elif grade <= 59: 
-    print(f"{name} earned a F")
+    print(f"{name} earned an F")
