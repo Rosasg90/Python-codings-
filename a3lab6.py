@@ -8,10 +8,10 @@ grade = int(input(f"What is their score? "))
 if grade <= 100 and grade >= 90:
     print(f"{name} earned an A") 
 elif grade <= 89 and grade >= 80:
-    print(f"{name} earned an B")
+    print(f"{name} earned a B")
 elif grade <= 79 and grade >= 70:
-    print(f"{name} earned an C")
+    print(f"{name} earned a C")
 elif grade <= 69 and grade >= 60:
-    print(f"{name} earned an D") 
+    print(f"{name} earned a D") 
 elif grade <= 59: 
-    print(f"{name} earned an F")
+    print(f"{name} earned a F")
